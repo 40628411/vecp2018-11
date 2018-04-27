@@ -38,7 +38,7 @@ ctx.fillStyle='rgb(100000, 100000, 100000)'
 ctx:fillRect(0, flag_h*11/13, flag_w, flag_h/13)
 --青天
 ctx.fillStyle='rgb(0, 0, 150)'
-ctx:fillRect(0, 0, flag_w/2, flag_h/2)
+ctx:fillRect(0, 0, flag_w/2, flag_h*6/13)
 
 
 -- 導入 "js" 模組
