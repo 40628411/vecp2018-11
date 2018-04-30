@@ -34,50 +34,51 @@ function star(radius, xc, yc, n)
         ctx:lineTo(x,y)
     end
 end
+--藍色大六邊形
 star(100, 200, 200,6)
 ctx:closePath()
 ctx:stroke()
 ctx:fill()
 
-
+--白色內六邊形
 star(60, 200, 200,6)
 ctx:closePath()
 ctx:stroke()
 ctx.fillStyle = '#fff'
 ctx:fill()
-
+--藍色圓形
 star(38, 200, 200,1000)
 ctx:closePath()
 ctx:stroke()
 ctx.fillStyle = "rgb(0,0,150)"
 ctx:fill()
---藍色六邊形
+--頂端白色遮蓋用六邊形
 star(150, 200, 27,6)
 ctx:closePath()
 ctx.fillStyle = '#fff'
 ctx:fill()
 ctx.strokeStyle = '#fff'
-
+--圓形中間斜線(正方形組成)
 star(15, 200, 200,4)
 ctx:closePath()
 ctx.fillStyle =  '#fff'
 ctx:fill()
-
+--圓形中間斜線(正方形組成)
 star(15, 190, 190,4)
 ctx:closePath()
 ctx.fillStyle =  '#fff'
 ctx:fill()
-
+--圓形中間斜線(正方形組成)
 star(15, 180, 180,4)
 ctx:closePath()
 ctx.fillStyle =  '#fff'
 ctx:fill()
-
+--圓形中間斜線(正方形組成)
 star(15, 210, 210,4)
 ctx:closePath()
 ctx.fillStyle =  '#fff'
 ctx:fill()
-
+--圓形中間斜線(正方形組成)
 star(15, 220, 220,4)
 ctx:closePath()
 ctx.fillStyle =  '#fff'
