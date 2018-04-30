@@ -21,26 +21,26 @@ ctx:fillRect(0, 0, flag_w, flag_h)
 --白條
 ctx.fillStyle='rgb(100000, 100000, 100000)'
 ctx:fillRect(0, flag_h/13, flag_w, flag_h/13)
-
+--白條
 ctx.fillStyle='rgb(100000, 100000, 100000)'
 ctx:fillRect(0, flag_h*3/13, flag_w, flag_h/13)
-
+--白條
 ctx.fillStyle='rgb(100000, 100000, 100000)'
 ctx:fillRect(0, flag_h*5/13, flag_w, flag_h/13)
-
+--白條
 ctx.fillStyle='rgb(100000, 100000, 100000)'
 ctx:fillRect(0, flag_h*7/13, flag_w, flag_h/13)
-
+--白條
 ctx.fillStyle='rgb(100000, 100000, 100000)'
 ctx:fillRect(0, flag_h*9/13, flag_w, flag_h/13)
-
+--白條
 ctx.fillStyle='rgb(100000, 100000, 100000)'
 ctx:fillRect(0, flag_h*11/13, flag_w, flag_h/13)
 --青天
 ctx.fillStyle='rgb(0, 0, 150)'
 ctx:fillRect(0, 0, flag_w/2, flag_h*6/13)
 
-
+--以下為星星
 -- 導入 "js" 模組
 local js = require "js"
 -- global 就是 javascript 的 window
@@ -115,8 +115,7 @@ function star(x, y, r, angle, solid, color)
     end
 end
 
---star(100, 100, 30, 0, true, "#f00")
---star(300, 300, 50, 0, false, "#000")
+--星星
 for i = 0, 5 do
     for j = 0, 4 do
         star(25+50*i, 35+30*j, 10, 180,true, 'rgb(100000, 100000, 100000)')
